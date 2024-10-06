@@ -3,9 +3,9 @@ require("dotenv").config();
 
 module.exports = {
   //==========================================- MAIN - CONFIGS -==================================================================
-  SESSION_ID: process.env.SESSION_ID || "",
+  SESSION_ID: process.env.SESSION_ID || "w2M3QYLb#_uK5DUuKJX2dyp--puAOA0Bod9ONydYpk2InP0F6cPA",
   // ADD Your Session Id 
-  MONGODB: process.env.MONGODB || "",
+  MONGODB: process.env.MONGODB || "mongodb+srv://hasamg:xlwPPyGX6GedR9xD@cluster0.9qiarq4.mongodb.net/",
     // ADD Your MongoDB Database URL
   PREFIX: process.env.PREFIX || ".",
   // Add Your Custom Prefix 
@@ -15,20 +15,20 @@ module.exports = {
   // public = AnyOne Working
   // inbox = Only Working  Inbox
   // groups = only working in group
-  OWNER_NUMBER: process.env.OWNER_NUMBER || "94702481115",
+  OWNER_NUMBER: process.env.OWNER_NUMBER || "94754625969",
   //========================================- OTHER - CONFIGS -=====================================================================
   AUTO_VOICE: process.env.AUTO_VOICE || "false",
   ANTI_BAD_WORDS_ENABLED: process.env.ANTI_BAD_WORDS_ENABLED || "true",
   AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "true",
   ANTI_BAD_WORDS: (process.env.ANTI_BAD_WORDS || "pakayo,huththo").split(','),
-  ANTI_LINK: process.env.ANTILINK || "false",
+  ANTI_LINK: process.env.ANTILINK || "true",
   ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "false",
   ALWAYS_TYPING: process.env.ALWAYS_TYPING || "false",
   ALWAYS_RECORDING: process.env.ALWAYS_RECORDING || "false",
-  ANTI_BOT: process.env.ANTI_BOT || "true",
+  ANTI_BOT: process.env.ANTI_BOT || "false",
   ANTI_DELETE: process.env.ANTI_DELETE || "true",
-  packname: process.env.packname || "🪄BHASHI",
-  author: process.env.author || "BHASHI x VISHWA",
+  packname: process.env.packname || "🖤✨️ᴘᴏᴡᴇʀᴇᴅ ʙʏ 𓄂ʙʟᴀᴄᴋ ᴀʟꜰᴀ࿐ ᴏꜰᴄ ²⁰²⁴᭄✨️🖤",
+  author: process.env.author || "⚡ᴍʀ ᴀʟꜰᴀ🔰",
   //==========================================- API-CONFIGS -==========================================================
   OPENWEATHER_API_KEY: process.env.OPENWEATHER_API_KEY || "2d61a72574c11c4f36173b627f8cb177", //openweathermap.org
   ELEVENLABS_API_KEY: process.env.ELEVENLABS_API_KEY || "sk_6438bcc100d96458f8de0602aec662f4ba14b905fd090ad3", //elevenlabs.io
